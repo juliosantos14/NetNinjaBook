@@ -397,7 +397,7 @@
 				<p class="lead">Get the latest updates as they happen...</p>
 			</div>
 			<div class="row justify-content-center">
-				<div class="col-md-8">
+				<div class="col-md-8 text-center">
 					<p class="text-muted my-4">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, blanditiis doloribus culpa
 						consequatur nam quae ullam id consequuntur voluptate voluptatibus, magni odit mollitia! Fuga
@@ -405,26 +405,35 @@
 						natus, sequi nemo deleniti dolorum architecto! Reiciendis, suscipit cumque vel officia id odio
 						corrupti.
 					</p>
-					
-
+					<button type="button" class="btn btn-primary" data-bs-toggle="modal"
+						data-bs-target="#reg-Modal">Register for updates</button>					
+				</div>
+				<!-- <div class="mt-2 text-center">
 					<button class="btn btn-primary" data-bs-toogle="modal" data-bs-target="#reg-modal">Register for
 						updates</button>
-				</div>
-				<div class="mt-2 text-center">
-					<button class="btn btn-primary" data-bs-toogle="modal" data-bs-target="#reg-modal">Register for
-						updates</button>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</section>
 
-	<div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+	<!--Modal-->
+
+	<div class="modal fade" id="reg-Modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
 					<h5 class="modal-title" id="modal-title">Get the Latest Updates</h5>
 					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
 				</div>
+				<div class="modal-body">
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, totam? Itaque incidunt animi
+						debitis placeat blanditiis laborum minima illo! Alias blanditiis et dolorem corporis nobis
+						voluptatibus, laboriosam non? Corrupti, alias?</p>
+					<label for="modal-email" class="form-label">Your e-mail adress:</label>
+					<input type="email" class="form-control" id="email" placeholder="e.g.mario@example.com.br">
+				</div>
+				<dv class="modal-footer">
+					<button class="btn btn-primary">Submit</button>
 			</div>
 		</div>
 	</div>
